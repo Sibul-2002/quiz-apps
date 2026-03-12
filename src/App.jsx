@@ -491,7 +491,7 @@ function App() {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-blue-500 via-purple-500 to-indigo-600">
-      <h1 className="text-3xl font-bold text-pink-500 mb-6">PURUSHOTTAM ACADEMY OF COMPUTER EDUCATION 💻</h1>
+      <h1 className="text-3xl font-bold text-pink-500 mb-6 text-center mt-10">PURUSHOTTAM ACADEMY OF COMPUTER EDUCATION 💻</h1>
       <h2 className="text-2xl font-bold text-white mb-6">OS-CIT Quiz App 😎</h2>
 
       {/* Home Screen - Sets
