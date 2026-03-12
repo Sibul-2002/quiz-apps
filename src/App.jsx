@@ -448,7 +448,7 @@ function App() {
   const [answers, setAnswers] = useState([]);
   const [showResult, setShowResult] = useState(false);
   const [showReview, setShowReview] = useState(false);
-  const [timer, setTimer] = useState(60); // 5 min = 300 sec (change to 60 for 1 min)
+  const [timer, setTimer] = useState(1200); // 5 min = 300 sec (change to 60 for 1 min)
 
   const handleAnswer = (option) => {
     setAnswers([
@@ -475,7 +475,7 @@ function App() {
     setAnswers([]);
     setShowResult(false);
     setShowReview(false);
-    setTimer(60); // reset timer
+    setTimer(1200); // reset timer
   };
 
   // Timer logic
