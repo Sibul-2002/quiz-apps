@@ -491,8 +491,16 @@ function App() {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-blue-500 via-purple-500 to-indigo-600">
-      <h1 className="text-3xl font-bold text-pink-500 mb-6 text-center mt-10">PURUSHOTTAM ACADEMY OF COMPUTER EDUCATION 💻</h1>
-      <h2 className="text-2xl font-bold text-white mb-6">OS-CIT Quiz App 😎</h2>
+      <h1 className="text-3xl font-bold text-pink-500 mb-6 text-center shadow-lg shadow-white p-5 rounded outline-text
+              [text-shadow:0px_0px_0px_white,-0px_0px_0px_white,0px_0px_0px_white,0_2px_0_white]">PURUSHOTTAM ACADEMY OF COMPUTER EDUCATION 💻</h1>
+      <h2 className="text-2.1xl font-bold text-orange-400 mb-10">Contact Us - 8917674025</h2>
+      <h3 className="text-2xl font-bold text-white mb-12">OS-CIT Quiz App 😎</h3>
+
+     <style>
+      h1{
+  
+      }
+     </style>
 
       {/* Home Screen - Sets
       {!currentSet && (
@@ -568,7 +576,7 @@ function App() {
       return (
         <div
           key={setKey}
-          className={`p-6 rounded-xl shadow-lg text-center w-64 transform transition duration-300 hover:scale-105 hover:shadow-2xl ${colors[index % colors.length]}`}
+          className={`p-6 mb-10 rounded-xl shadow-lg text-center w-64 transform transition duration-300 hover:scale-105 hover:shadow-2xl ${colors[index % colors.length]}`}
         >
           <h2 className="text-xl font-bold mb-2 text-white">Set - {setKey}</h2>
           <p className="text-white mb-4">
