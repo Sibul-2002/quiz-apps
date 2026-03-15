@@ -379,12 +379,12 @@ export const sets = {
   },
   {
     id: 3,
-    question: "What is 'Google' ?",
+    question: "What is 'Google'?",
     options: [
       "Google is a website",
       "Google is an app",
       "Google is a search engine",
-      "Google is a search engine",
+      "Google is a Web Server",
     ],
     answer: "Google is a search engine",
   },
@@ -417,7 +417,7 @@ export const sets = {
       "Start from current slide",
       "Start from first slide",
       "Opens in edit mode",
-      "ends presentation",
+      "Ends presentation",
     ],
     answer: "Start from current slide",
   },
@@ -513,7 +513,7 @@ export const sets = {
     id: 15,
     question: "What is the full form of 'VPN' ?",
     options: [
-      "Verified personal number",
+      "Verified Personal number",
       "Virtual Private Network",
       "Virtual Public Network",
       "Visual Protection Node",
@@ -547,7 +547,7 @@ export const sets = {
     question: "What does antivirus software do?",
     options: [
       "Find the removes viruses",
-      "speeds up phone",
+      "Speeds up phone",
       "Help shopping",
       "Back up Data",
     ],
@@ -646,7 +646,7 @@ export const sets = {
     question: "Which of the following is NOT a function of an Operating System?",
     options: [
       "Typing documents",
-      "Process Management",
+      "Process management",
       "File management",
       "Memory management",
     ],
@@ -2591,6 +2591,17 @@ export const sets = {
     "All of the above",
     ],
     answer: "All of the above",
+},
+{
+  id: 4,
+  question: "What is the full form of 'www'", 
+  options: [
+    "World Wide Web",
+    "World Wide Wave",
+    "World Windows Web",
+    "Wide World Web",
+    ],
+    answer: "World Wide Web",
 },
 {
   id: 5,
