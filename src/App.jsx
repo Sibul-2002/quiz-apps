@@ -666,11 +666,11 @@ function App() {
                 <p className="font-semibold">
                   <strong>Q{i + 1}:</strong> {a.question}
                 </p>
-                <p className="text-gray-700">
-                  <span className="font-medium">Your Answer:</span> {a.yourAnswer}
+                <p className="text-yellow-600">
+                  <span className="font-medium text-blue-500">Your Answer:</span> {a.yourAnswer}
                 </p>
-                <p className="text-gray-700">
-                  <span className="font-medium">Correct Answer:</span>{" "}
+                <p className="text-green-400">
+                  <span className="font-medium text-blue-500">Correct Answer:</span>{" "}
                   {a.correctAnswer}
                 </p>
               </div>
